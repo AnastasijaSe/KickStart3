@@ -5,6 +5,8 @@ public class Main {
     static Scanner s = new Scanner(System.in);
     static double input1, input2;
     public static void main(String[] args) {
+        System.out.println("Willkommen zum Lala Rechner, the Original by Lea, Azra und Anastasija");
+        System.out.println("Genieße und teile deine Erfahrung");
         operationenUNDvergleich();
         zylinderrechnung();
         wurzel();
@@ -43,7 +45,7 @@ public class Main {
             System.out.println(" ");
 
             //Divisionsrest berechnen
-            double z, y;
+            double y;
             y = input1 % input2;
             System.out.println("Divisionsrest von input1/input2: a%b= " + y);
 
@@ -53,26 +55,26 @@ public class Main {
 
             // == is equal to
             boolean c = (input1 == input2);
-            System.out.println("Input 1 and Input 2 are Equal: " + c);
+            System.out.println("Input 1 und Input 2 sind gleich: " + c);
 
 
             // <= less than or equal to
             boolean d = (input1 <= input2);
-            System.out.println("Input 1 is less or equal: " + d);
+            System.out.println("Input 1 ist kleiner als oder gleich: " + d);
 
 
             // < less than
             boolean e = (input1 < input2);
-            System.out.println("Input 1 is less than: " + e);
+            System.out.println("Input 1 ist kleiner als: " + e);
 
 
             // > grater than
             boolean f = (input1 > input2);
-            System.out.println("Input 1 is greater than: " + f);
+            System.out.println("Input 1 ist größer als: " + f);
 
             // != is not equal to
             boolean g = (input1 != input2);
-            System.out.println("Input 1 is not equal to: " + g);
+            System.out.println("Input 1 ist ungleich: " + g);
 
         }
 
@@ -86,13 +88,14 @@ public class Main {
             l = input2;
             double area = r * r * Math.PI;
             double volume = area * l;
-            System.out.println("Volume of cylinder is: " + volume);
+            System.out.println("Zylindervolumen: " + volume);
         }
 
         public static void wurzel() {
         //Wurzel berechnung
             System.out.println(" ");
             System.out.println("Wurzel aus " + input1 + "=" + Math.sqrt(input1));
+
         }
 
 }
