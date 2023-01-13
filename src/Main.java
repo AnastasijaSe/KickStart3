@@ -92,7 +92,7 @@ public class Main {
         }
 
         public static void wurzel() {
-        //Wurzel berechnung
+        //Wurzelberechnung
             System.out.println(" ");
             System.out.println("Wurzel aus " + input1 + "=" + Math.sqrt(input1));
 
