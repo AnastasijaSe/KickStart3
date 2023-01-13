@@ -3,6 +3,21 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        //Zylinder berechnen
+        Scanner k = new Scanner(System.in);
+        double zahl1, zahl2;
+        System.out.println("Bitte Zahl eingeben: ");
+        zahl1 = k.nextDouble();
+        System.out.println("Bitte zweite Zahl eingeben: ");
+        zahl2 = k.nextDouble();
+        double r,l;
+        r = zahl1;
+        l = zahl2;
+        double area = r * r * Math.PI;
+        double volume = area * l;
+        System.out.println("Volume of cylinder is: " + volume);
+
+
         Scanner s = new Scanner(System.in);
         int input1, input2;
         System.out.println("Bitte Zahl eingeben: ");
@@ -12,7 +27,6 @@ public class Main {
 
         System.out.println("Bitte Operation eingeben: ");
         char rechenzeichen = s.next().charAt(0);
-
 
 
         //Plus
