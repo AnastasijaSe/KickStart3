@@ -3,16 +3,19 @@ import java.util.Scanner;
 
 public class Main {
     static Scanner s = new Scanner(System.in);
+
+    // Input initialisieren
     static double input1, input2;
+
     public static void main(String[] args) {
+        System.out.println(" ");
         System.out.println("Willkommen zum Lala Rechner, the Original by Lea, Azra und Anastasija");
         System.out.println("Genieße und teile deine Erfahrung");
         operationenUNDvergleich();
         zylinderrechnung();
         wurzel();
-
-
     }
+
         public static void operationenUNDvergleich() {
 
             System.out.println("Bitte Zahl eingeben: ");
